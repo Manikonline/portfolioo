@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+   font-family: 'Jomolhari', serif;
+}
+.background-color{
+    background-color: #202235;
+    color: white;
+}
+.text-color{
+    color:#F64B20
+}
+.primary-text{
+    text-decoration: underline;
+}
+/* .edit-btn{
+    border: 1px solid #F64B20;
+    background-color: #202235;
+}
+.edit-btn:hover{
+    border: 1px solid #202235;
+    background-color:#F64B20 ;
+    transition: .5s;
+} */

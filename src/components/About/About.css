@@ -1,0 +1,50 @@
+.btn-edit{
+    width: 225px;
+    margin-top: 5px;
+}
+.btn-section{
+    width: 250px;
+}
+.about-me-img{
+    display: inline-flex;
+    
+}
+.edit-img{
+    width: 25%;
+    
+    border: 1px solid #F64B20;
+    border-radius:10px;
+}
+.about-btns{
+  
+    padding: 15px 8px 15px 5px;
+    border-radius: 10px;
+    color: white;
+}
+.btn-section{
+    background-color: #202235;
+    color: white;
+    border-radius: 10px;
+    
+}
+.btn-edit{
+    color: white;
+}
+.btn-edit:hover{
+    background-color: white;
+    color:#F64B20;
+    border-bottom: #F64B20;
+}
+.about-btn-active {
+    background-color: white;
+    color: #F64B20;
+}
+.about-details{
+    padding: 8px;
+    margin-left: 8px;
+}
+.about-info{
+    padding: 5px ;
+    color: gray;
+    
+}
