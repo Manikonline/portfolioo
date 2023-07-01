@@ -50,9 +50,9 @@ const Banner = () => {
                           </span>
                       </div>
                       <div className="my-10">
-                         <button className="btn text-white btn-outline  border-0 border-b-4 border-orange-800 btn-sm">Hire Me</button>
+                         <button className="btn text-white btn-outline  border-0 border-b-4 border-color btn-sm">Hire Me</button>
                          <a href={resume} download={resume}>
-                           <button className="btn text-white btn-outline  border-0 border-b-4 border-orange-800 btn-sm ms-2">Get Resume</button>
+                           <button className="btn text-white btn-outline  border-0 border-b-4 border-color btn-sm ms-2">Get Resume</button>
                          </a>
                       </div>
                   </div>
@@ -63,8 +63,8 @@ const Banner = () => {
           </div>
           <div className=" md:ms-32 md:mt-10">
                   <div className="avatar ">
-                      <div className="w-52  rounded-full">
-                          <img className="edit-image " src='https://i.ibb.co/Hx5ps08/Pics-Art-02-02-11-03-53-removebg-preview-1-fotor-20230629183723.png' />
+                      <div className="w-52 ">
+                          <img className="edit-image  " src='https://i.ibb.co/Hx5ps08/Pics-Art-02-02-11-03-53-removebg-preview-1-fotor-20230629183723.png' />
                         
                       </div>
                   </div>
@@ -72,7 +72,7 @@ const Banner = () => {
            
           </div>
           <div>
-            <img className="w-full -mt-16 " src="https://i.ibb.co/qnZY24n/shape-bg.png" alt="" />
+            <img className="w-full -mt-14 ms:-mt-4 " src="https://i.ibb.co/qnZY24n/shape-bg.png" alt="" />
           </div>
      </div>
     );

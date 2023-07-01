@@ -12,7 +12,7 @@
 .edit-img{
     width: 25%;
     
-    border: 1px solid #F64B20;
+    border: 1px solid #3CBDE3;
     border-radius:10px;
 }
 .about-btns{
@@ -22,7 +22,7 @@
     color: white;
 }
 .btn-section{
-    background-color: #202235;
+    background-color: #0F172A;
     color: white;
     border-radius: 10px;
     
@@ -32,12 +32,12 @@
 }
 .btn-edit:hover{
     background-color: white;
-    color:#F64B20;
-    border-bottom: #F64B20;
+    color:#3CBDE3;
+    border-bottom: #3CBDE3;
 }
 .about-btn-active {
     background-color: white;
-    color: #F64B20;
+    color: #3CBDE3;
 }
 .about-details{
     padding: 8px;
@@ -47,4 +47,14 @@
     padding: 5px ;
     color: gray;
     
+}
+
+/*=================== custom scrollbar ======================*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:#0F172A;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background-color: #3CBDE3;
 }

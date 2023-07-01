@@ -7,13 +7,13 @@ const About = () => {
     const [aboutfilter, setAboutfilter]=useState('ABOUT')
     return (
         <div className='py-8'>
-            <h1 className="text-center text-3xl py-12 font-extrabold italic text-color">About</h1>
+            <h1 className="text-center text-3xl py-12 font-extrabold italic skill-text-color">--About--</h1>
             <div className="grid md:grid-cols-2 sm:grid-cols-1 about-info">
                 <div className='btn-section ms-12'>
                     <div className="about-btns">
-                        <button onClick={()=>setAboutfilter('ABOUT')} className="btn  btn-edit about-btn-active btn-outline  border-0 border-b-4 border-orange-800 btn-sm ms-2 ">About Me</button><br/>
-                        <button onClick={()=>setAboutfilter('EDU')} className="btn  btn-edit btn-outline  border-0 border-b-4 border-orange-800 btn-sm ms-2">Education</button><br/>
-                        <button onClick={()=>setAboutfilter('SKILL')} className="btn  btn-edit btn-outline  border-0 border-b-4 border-orange-800 btn-sm ms-2">Skills</button>
+                        <button onClick={()=>setAboutfilter('ABOUT')} className={`btn  btn-edit  btn-outline  border-0 border-b-4 border-color btn-sm ms-2 ${aboutfilter== 'ABOUT'? 'about-btn-active':''} `}>About Me</button><br/>
+                        <button onClick={()=>setAboutfilter('EDU')} className={`btn  btn-edit btn-outline  border-0 border-b-4 border-color btn-sm ms-2 ${aboutfilter== 'EDU'? 'about-btn-active':''}`}>Education</button><br/>
+                        <button onClick={()=>setAboutfilter('SKILL')} className={`btn  btn-edit btn-outline  border-0 border-b-4 border-color btn-sm ms-2 ${aboutfilter== 'SKILL'? 'about-btn-active':''}`}>Skills</button>
                     </div>
                   
                 </div>

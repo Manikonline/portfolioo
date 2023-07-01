@@ -1,0 +1,21 @@
+.service-icon{
+    text-align: center;
+    color:#3CBDE3;
+    font-size: 2em;
+
+    
+
+}
+.p-color{
+    color: gray;
+}
+
+.img-edit{
+    width: 100%;
+}
+.single_service{
+    padding: 20px;
+    border-radius: 5px;
+    border: 3px solid #3CBDE3 ;
+    
+}
